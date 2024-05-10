@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    animation: infinite;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgb(137, 137, 186) ;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgb(40, 40, 220);
+}
+
+h1 {
+    text-align: center;
+    color: #0c2aee;
+}
+.char{
+    color:rgba(7, 1, 1, 0.595);
+}
+
+.f1 {
+    border-radius: 10px;
+    border: 1px solid rgb(137, 137, 186) ;
+    box-shadow: 5px 5px rgb(30, 30, 180);
+}
+
+.f2 {
+    border-radius: 10px;
+    border: 1px solid rgb(137, 137, 186) ;
+    box-shadow: 5px 5px rgb(30, 30, 180);
+}
+
+label {
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+input[type="number"], input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:  #0c2aee;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#toggleVisibility {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+#passwordResult {
+    position: relative;
+    padding-right: 50px; 
+}

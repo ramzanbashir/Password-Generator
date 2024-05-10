@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <form id="passwordGeneratorForm">
+            <label for="length">Password Length:</label>
+            <input class="f1" type="number" id="length" name="length" min="4" max="50" value="8" required><br><br>
+            
+            <label class="char">Character Types:</label><br>
+            <input type="checkbox" id="uppercase" name="uppercase" checked>
+            <label for="uppercase">Uppercase</label><br>
+            <input type="checkbox" id="lowercase" name="lowercase" checked>
+            <label for="lowercase">Lowercase</label><br>
+            <input type="checkbox" id="numbers" name="numbers" checked>
+            <label for="numbers">Numbers</label><br>
+            <input type="checkbox" id="symbols" name="symbols" checked>
+            <label for="symbols">Symbols</label><br><br>
+
+            <button class="f2" type="button" onclick="generatePassword()">Generate Password</button><br><br>
+            <input type="text" id="passwordResult" readonly>
+            <button type="button" id="toggleVisibility" onclick="togglePasswordVisibility()">
+            </button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
