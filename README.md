@@ -1,1 +1,1 @@
-danger.surge.sh
+https://danger.surge.sh
